@@ -1,0 +1,94 @@
+/* adminDashboard.css */
+
+body {
+    background-color: #f8fafc;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #02353c;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  .users-table th {
+    background-color: #2eaf7d;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table-cell {
+    padding: 10px;
+  }
+  
+  .table-header {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #449342;
+    color: white;
+    border: none;
+  }
+  
+  .edit-btn:hover {
+    background-color: #3fd0c9;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  .users-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .users-table tr:hover {
+    background-color: #e6f7f3;
+  }
