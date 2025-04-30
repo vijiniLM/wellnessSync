@@ -1,0 +1,189 @@
+.food-display-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .food-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .food-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .food-card p strong {
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .food-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .food-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .food-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* New styling for the delete button */
+  .food-display-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .food-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .food-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .food-card p strong {
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  .food-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .food-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .food-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* New styling for the delete button with !important */
+  .food-actions .delete-button {
+    background-color: #dc3545 !important;
+  }
+  
+  .food-actions .delete-button:hover {
+    background-color: #c82333 !important;
+  }
+  /* Styles for the Update Form */
+  .update-form-container {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 400px;
+    max-height: 80vh; /* Limit height to 80% of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-radius: 8px;
+  }
+  
+/* Show the form when it's active */
+.update-form-container.active {
+  display: block;
+}
+
+/* Style for form fields */
+.update-form-container input, 
+.update-form-container button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-form-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.update-form-container button:hover {
+  background-color: #218838;
+}
+
+/* Close button */
+.update-form-container .close-button {
+  background-color: #dc3545;
+}
+
+.update-form-container .close-button:hover {
+  background-color: #c82333;
+}
+
+
+  
+  

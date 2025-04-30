@@ -1,0 +1,65 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw; /* Make it take full viewport width */
+  max-width: none; /* Remove the 800px restriction */
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+  
+  .cart-item-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1; /* Allow the text to expand */
+  }
+  
+  .cart-item h4 {
+    margin: 0;
+  }
+  
+  .cart-item p {
+    margin: 5px 0;
+  }
+  
+  .cart-item button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cart-item button:hover {
+    background: #d43f3f;
+  }
+
+  /* ---- Proceed to Checkout Button ---- */
+.checkout-button {
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Adjust width of button */
+  margin: 20px auto;
+  padding: 10px;
+  background: #28a745; /* Green for checkout */
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background: #218838;
+}
+  
